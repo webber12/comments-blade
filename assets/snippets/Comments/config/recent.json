@@ -1,0 +1,11 @@
+{
+  "templatePath": "assets/snippets/Comments/views/",
+  "templateExtension": "blade.php",
+  "display": 10,
+  "tpl": "@B_FILE:recent",
+  "introField": "",
+  "contentField": "content",
+  "summary": "notags,len:150",
+  "usertype": "users",
+  "contextModel": "\\Pathologic\\EvolutionCMS\\MODxAPI\\modResource"
+}

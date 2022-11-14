@@ -1,0 +1,14 @@
+{
+  "templatePath": "assets/snippets/Comments/views/",
+  "wrapTpl": "@B_FILE:TreeView/wrap",
+  "tpl": "@B_FILE:TreeView/commentTree",
+  "rtssElement": "TreeViewComments",
+  "userFields": "createdby,updatedby,deletedby",
+  "disableGuests": 1,
+  "disableModeration": 0,
+  "moderatedByThreadCreator": 1,
+  "contextModel": "\\Pathologic\\EvolutionCMS\\MODxAPI\\modResource",
+  "threadCreatorField": "aid",
+  "usertype": "users",
+  "tree": 1
+}

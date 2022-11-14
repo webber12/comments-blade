@@ -1,0 +1,39 @@
+{
+  "templatePath": "assets/snippets/Comments/views/",
+  "templateExtension": "blade.php",
+  "formTpl": "@B_FILE:Moderation/form",
+  "disableSubmit": 1,
+  "rules": {
+    "comment": {
+      "required": "Введите текст комментария"
+    }
+  },
+  "guestRules": {
+    "name": {
+      "required":"Введите ваше имя"
+    },
+    "email": {
+      "required": "Введите e-mail",
+      "email": "Введите e-mail правильно"
+    },
+    "comment": {
+      "required": "Введите текст комментария"
+    }
+  },
+  "errorClass": " is-invalid",
+  "requiredClass": " is-invalid",
+  "errorTpl" : "@CODE:<div class=\"invalid-feedback\">[+message+]</div>",
+  "filters": {
+    "name":["trim", "ucfirst", "removeExtraSpaces", "stripTags"],
+    "email":["trim", "email"],
+    "comment": ["trim", "compressText"]
+  },
+  "formControls": ["published", "deleted"],
+  "emptyFormControls": {
+    "published": 0,
+    "deleted": 0
+  },
+  "moderatedByThreadCreator": 1,
+  "contextModel": "\\Pathologic\\EvolutionCMS\\MODxAPI\\modResource",
+  "threadCreatorField": "createdby"
+}
