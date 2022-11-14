@@ -8,7 +8,7 @@
   "disableModeration": 0,
   "moderatedByThreadCreator": 1,
   "contextModel": "\\Pathologic\\EvolutionCMS\\MODxAPI\\modResource",
-  "threadCreatorField": "aid",
+  "threadCreatorField": "createdby",
   "usertype": "users",
   "tree": 1
 }
